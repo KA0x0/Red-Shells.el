@@ -16,3 +16,4 @@
 ;;; Code:
 
 (defun clear-persistence)
+(defun trap)
