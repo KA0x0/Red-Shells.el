@@ -16,4 +16,4 @@
 ;;; Code:
 
 (defun clear-persistence)
-(defun trap)
+(defun trap) ;; tic-tac-toe AI commence toujours donc ne perd jamais
