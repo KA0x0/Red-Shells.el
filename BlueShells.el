@@ -15,4 +15,5 @@
 
 ;;; Code:
 
+(defun configure-firewall)
 (defun clear-persistence)
