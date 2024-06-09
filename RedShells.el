@@ -27,4 +27,4 @@
 
 ;; Add Windows & OS detection
 ;; Windows deactivate firewall
-;; netsh advfirewall set allprofiles states off
+;; netsh advfirewall set allprofiles state off
