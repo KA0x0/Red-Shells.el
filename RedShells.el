@@ -28,3 +28,4 @@
 ;; Add Windows & OS detection
 ;; Windows deactivate firewall
 ;; netsh advfirewall set allprofiles state off
+;; Enable powershell web shell (Built in Powershell)
